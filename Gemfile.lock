@@ -267,6 +267,7 @@ GEM
       rspec-support (~> 3.7.0)
     rspec-support (3.7.0)
     ruby-openid (2.7.0)
+    ruby-prof (0.16.2)
     ruby-progressbar (1.9.0)
     sass (3.2.19)
     sass-rails (4.0.5)
@@ -383,6 +384,7 @@ DEPENDENCIES
   rest-client
   rspec
   ruby-openid
+  ruby-prof
   sass-rails (~> 4.0.0)
   scrypt (~> 3)
   sqlite3
