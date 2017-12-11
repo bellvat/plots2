@@ -53,6 +53,8 @@ group :test, :development do
   gem 'jasmine-jquery-rails'
   gem 'coveralls', require: false
   gem 'ci_reporter_test_unit'
+  # Performance testing
+  gem 'rails-perftest'
 end
 
 # run with `bundle install --without production` to exclude these
@@ -107,6 +109,4 @@ gem 'jbuilder'
 # Pin mustermann to Ruby 2.1 compatible
 gem 'mustermann' , '~> 0.4'
 
-#Performance testing
-gem 'rails-perftest'
 gem 'ruby-prof', group: :test
